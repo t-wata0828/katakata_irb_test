@@ -1,6 +1,8 @@
 # README
 
-## RubyKaigi 2023 の Power up your REPL life with types
+## RubyKaigi 2023 Power up your REPL life with types
+
+https://rubykaigi.org/2023/presentations/tompng.html#day1
 
 公式リポジトリ: https://github.com/tompng/katakata_irb
 
