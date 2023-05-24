@@ -29,13 +29,13 @@ group :development do
 end
 ```
 
-### プロジェクト直下に`.irbrc`ファイルを作成
+### プロジェクト直下に .irbrc ファイルを作成
 
 ```bash
 touch .irbrc
 ```
 
-### `.irbrc` にロードする設定を書く
+### .irbrc にロードする設定を書く
 
 ```
 require 'katakata_irb' rescue nil
@@ -74,5 +74,3 @@ irb(main):007:1*   b[0].a█
 ## 備考
 irbを起動して何かしらの入力を行い終了すると、
 irbで入力した履歴が追記されていく`.irb_history`というファイルがプロジェクト直下に作成される。
-
-
