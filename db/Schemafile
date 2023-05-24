@@ -1,8 +1,8 @@
 create_table :users, id: :bigint, force: :cascade, charset: 'utf8mb4' do |t|
-  t.string "name"
-  t.string "email", null: false
-  t.string "tel"
-  t.integer "gender", default: 0, comment: "性別 Enum: 無回答/男性/女性(default=>無回答)"
+  t.string :name
+  t.string :email, null: false
+  t.string :tel
+  t.integer :gender, default: 0, comment: "性別 Enum: 無回答/男性/女性(default=>無回答)"
 end
 
 create_table :articles, id: :bigint, force: :cascade, charset: 'utf8mb4' do |t|
